@@ -1,0 +1,43 @@
+:root {
+    --ion-color-secondary: #25A55F ;
+    --ion-color-secondary-rgb: 0, 102, 0;
+    --ion-color-secondary-contrast: #ffffff;
+    --ion-color-secondary-contrast-rgb: 255, 255, 255;
+    --ion-color-secondary-shade: #005a00;
+    --ion-color-secondary-tint: #1a751a;
+  }
+
+body{
+    background-color: #25A55F;
+    background:
+		  radial-gradient(50% 50% at 100% 0,#E4E4ED 0%  5% ,#25A55F 6%  15%,#E4E4ED 16% 25%,#25A55F 26% 35%,#E4E4ED 36% 45%,
+		   #25A55F 46% 55%,#E4E4ED 56% 65%,#25A55F 66% 75%,#E4E4ED 76% 85%,#25A55F 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50% at 0 100%,#E4E4ED 0%  5% ,#25A55F 6%  15%,#E4E4ED 16% 25%,#25A55F 26% 35%,#E4E4ED 36% 45%,
+		   #1BAA06 46% 55%,#E4E4ED 56% 65%,#1BAA06 66% 75%,#E4E4ED 76% 85%,#25A55F 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50%,#E4E4ED 0%  5% ,#25A55F 6%  15%,#E4E4ED 16% 25%,#25A55F 26% 35%,#E4E4ED 36% 45%,
+		   #25A55F 46% 55%,#E4E4ED 56% 65%,#25A55F 66% 75%,#E4E4ED 76% 85%,#25A55F 86% 95%,
+		   #0000 96%),
+		  radial-gradient(50% 50%,#E4E4ED 0%  5% ,#25A55F 6%  15%,#E4E4ED 16% 25%,#25A55F 26% 35%,#E4E4ED 36% 45%,
+		   #25A55F 46% 55%,#E4E4ED 56% 65%,#25A55F 66% 75%,#E4E4ED 76% 85%,#25A55F 86% 95%,
+		   #0000 96%) 32px 32px;
+	background-size: 64px 64px;
+	background-color: #E4E4ED;
+}
+.css-4ymrzp{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+#btn{
+    color: white;
+    background-color: #25A55F;
+    width: 200px;
+    height: 40px;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; top: -100px;
+}
